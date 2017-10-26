@@ -1,7 +1,10 @@
+#!/usr/bin/python 
+# -*- coding: utf-8 -*-
+
 from bakalari import BakalariAPI
 
 # Login
-api = BakalariAPI("user", "pass", "https://url/bakalari/")
+api = BakalariAPI("user", "pass", "http://url/bakalari/")
 api.login()
 
 rozvrh = api.rozvrh()
